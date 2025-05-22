@@ -1,9 +1,10 @@
 {
-  "name": "cpu-features",
+  "name": "@iarahealth/cpu-features",
   "version": "0.0.11",
   "author": "Brian White <mscdex@mscdex.net>",
   "description": "A simple binding to Google's cpu_features library for obtaining information about installed CPU(s)",
   "main": "./lib/index",
+  "types": "./lib/index.d.ts",
   "dependencies": {
     "buildcheck": "~0.0.6",
     "nan": "^2.22.1"
@@ -35,6 +36,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mscdex/cpu-features.git"
+    "url": "https://github.com/iarahealth/cpu-features.git"
   }
 }
