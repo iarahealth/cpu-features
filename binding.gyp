@@ -13,4 +13,7 @@
       'cflags': [ '-O3' ],
     },
   ],
+  'variables': {
+    'openssl_fips': '',
+  },
 }
